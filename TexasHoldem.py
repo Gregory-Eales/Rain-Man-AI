@@ -58,8 +58,8 @@ class TexasHold(object):
         # Amount player must give to check
         self.big_blind = 0
         # Card ranking dictionary
-        self.card_ranks = {"Royal Flush":10, "Straight Flush":9, "Four of a Kind":8, "Full House":7, "Flush":6, "Straight":5, "Three of a Kind":4, "Two Pair":3, "Pair":2, "High Card":1 }
-
+        self.card_ranks = {"Royal Flush": 10, "Straight Flush": 9, "Four of a Kind": 8, "Full House": 7,
+                           "Flush": 6, "Straight": 5, "Three of a Kind": 4, "Two Pair": 3, "Pair": 2, "High Card": 1}
 
     # Runs the game in a closed loop
     def play(self):
@@ -163,31 +163,54 @@ class TexasHold(object):
         highest_player = "Player0"
         for player in self.in_game:
             pass
+        return highest_player
 
     # Checks the highest set of cards a player has
     def highest_card_score(self, player):
-        pairs = []
+        highest_score = 0
         hand = self.players[player].hand
         total_cards = hand+self.board
-        # checks for pairs or two pairs
-        pairs = check_pairs(total_cards)
+
+        # checks for type of pairs
+        if highest_score < self.check_pairs(total_cards):
+            highest_score = self.check_pairs(total_cards)
+
         # checks for
+
+        return highest_score
 
     # Checks for the number of pairs
     def check_pairs(self, cards):
-        pairs = 0
-        cards = []
+        pair_type = None
+        three_kind = 0
+        pairs = []
         for card in cards:
             amount = cards.count(card)
-            if amount == 2:
-                pairs.append()
-                cards.remove(card)
-                cards.remove(card)
-            if amount == 3:
-                for
 
-        result = len(pairs)
-        return result
+            if amount == 2:
+                pairs.append(card)
+                for i in range(2):
+                    cards.remove(card)
+
+            if amount == 3:
+                pair_type = "Three of a Kind"
+                three_kind = three_kind + 1
+                for i in range(3):
+                    cards.remove(card)
+
+            if amount == 4:
+                pair_type = "Four of a Kind"
+
+            if len(pairs) == 2:
+                pair_type = "Two Pair"
+
+            if len(pairs) == 1:
+                pair_type = "Pair"
+
+            if three_kind == 1 and len(pairs) == 1:
+                pair_type = "Full House"
+
+        return self.card_ranks[pair_type]
 
 
 

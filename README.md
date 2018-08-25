@@ -1,2 +1,2 @@
-# Rain-Main-AI
+# Rain-Man-AI
 neural network based poker agent

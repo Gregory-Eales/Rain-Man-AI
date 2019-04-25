@@ -1,9 +1,18 @@
 from TexasHoldem import *
+import time
+import treys
 
-Game = TexasHold(5, 100)
 
+Game = TexasHold(2, 100, graphics=False)
+Game.add_players_to_game()
+Game.deal_cards()
 Game.draw_flop()
-Game.add_middle()
 Game.add_river()
+Game.add_middle()
+Game.give_initial_chips()
 
-print(Game.check_pairs(["two", "two", "Three", "Three", "Three"]))
+Game.update_game_screen()
+x = input("Done?")
+
+
+

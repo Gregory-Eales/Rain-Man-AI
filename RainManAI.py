@@ -1,6 +1,7 @@
 import numpy as np
+import torch
 from matplotlib import pyplot
-from numpy import tanh
+
 
 
 class RainMainAI(object):

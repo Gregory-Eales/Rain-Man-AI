@@ -6,7 +6,7 @@ neural network based poker agent
 </p>
 
 ## About
-
+The goal of this project is to build a proficient no-limit texas hold'em agaent using neural networks and monte carlo tree search.
 
 
 ## To Do

@@ -2,7 +2,7 @@
 neural network based poker agent
 
 <p align="center">
-  <img src="https://github.com/Gregory-Eales/Teeny-Go/blob/master/utils/assets/images/go_sample.png" width="500"/>
+  <img src="https://github.com/Gregory-Eales/Rain-Man-AI/blob/master/images/poker_stock_photo.jpeg" width="500"/>
 </p>
 
 ## About
@@ -10,7 +10,7 @@ neural network based poker agent
 
 
 ## To Do
- - [] define goals
+ - [ ] define goals
 
 
 ## Network Architecture

@@ -10,10 +10,17 @@ The goal of this project is to build a proficient no-limit texas hold'em agent u
 
 
 ## To Do
- - [ ] define goals
+ - [ ] get datasets
+ - [ ] get poker agents
+ - [ ] create model
+ - [ ] train value network
+ - [ ] train policy network
 
+## Model Architecture
 
-## Network Architecture
+<p align="center">
+  <img src="https://github.com/Gregory-Eales/Rain-Man-AI/blob/master/images/Rain-Man-Pipeline.png" width="500"/>
+</p>
 
 ## Training
 

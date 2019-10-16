@@ -12,6 +12,7 @@ The goal of this project is to build a proficient no-limit texas hold'em agent u
 ## To Do
  - [ ] get datasets
  - [ ] get poker agents
+ - [ ] create rating system
  - [ ] create model
  - [ ] train value network
  - [ ] train policy network

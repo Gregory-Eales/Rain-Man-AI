@@ -25,18 +25,10 @@ The goal of this project is to build a proficient no-limit texas hold'em agent u
 
 ## Training
 
-### Supervised Learning
-- in progress
-
-### Reinforcement Learning
 - in progress
 
 ## Results
 
-### Supervised Learning
-- in progress
-
-### Reinforcement Learning
 - in progress
 
 ## Sources

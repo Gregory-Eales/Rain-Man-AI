@@ -5,15 +5,6 @@ neural network based poker agent
   <img src="https://github.com/Gregory-Eales/Rain-Man-AI/blob/master/images/poker_stock_photo.jpeg" width="500"/>
 </p>
 
-###Sequence Diagram
-                    
-```seq
-Andrew->China: Says Hello 
-Note right of China: China thinks\nabout it 
-China-->Andrew: How are you? 
-Andrew->>China: I am good thanks!
-```
-
 ## About
 The goal of this project is to build a proficient no-limit texas hold'em agent using neural networks, reinforcement learning, and traditional statistical hand evaluation. This agent will use various statistical tools to calculate the card strengths and then use neural networks for competative decision making.
 

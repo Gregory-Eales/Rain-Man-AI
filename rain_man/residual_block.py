@@ -1,6 +1,6 @@
 import torch
 
-class Block(torch.nn.Module):
+class ResidualBlock(torch.nn.Module):
 
     def __init__(self, input_size, output_size):
         super(Block, self).__init__()

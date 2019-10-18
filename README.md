@@ -6,7 +6,7 @@ neural network based poker agent
 </p>
 
 ## About
-The goal of this project is to build a proficient no-limit texas hold'em agent using neural networks, monte carlo tree search, and traditional statistical hand evaluation. This agent will use various statistical tools to calculate the probability of winning while also using neural networks to evaluate the state of the game for competative decision making.
+The goal of this project is to build a proficient no-limit texas hold'em agent using neural networks, reinforcement learning, and traditional statistical hand evaluation. This agent will use various statistical tools to calculate the card strengths and then use neural networks for competative decision making.
 
 
 ## To Do

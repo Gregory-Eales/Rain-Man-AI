@@ -41,10 +41,6 @@ The goal of this project is to build a proficient no-limit texas hold'em agent u
 
 ## Sources
 
-### Poker Datasets
-
-### Poker Agents
-
 ### Papers
 
 - Introduction to Counterfactual Regret Minimization (http://modelai.gettysburg.edu/2013/cfr/cfr.pdf)

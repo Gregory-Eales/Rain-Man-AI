@@ -1,15 +1,6 @@
 # Rain-Man-AI
 neural network based poker agent
 
-```mermaid
-graph LR
-A[Square Rect] -- Link text --> B((Circle))
-A --> C(Round Rect)
-B --> D{Rhombus}
-C --> D
-```
-
-
 <p align="center">
   <img src="https://github.com/Gregory-Eales/Rain-Man-AI/blob/master/images/poker_stock_photo.jpeg" width="500"/>
 </p>

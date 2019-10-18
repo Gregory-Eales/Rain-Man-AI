@@ -14,8 +14,10 @@ The goal of this project is to build a proficient no-limit texas hold'em agent u
  - [ ] create poker GUI
  - [ ] create poker agents
  - [ ] create rain man model
+ 
+## Environment
 
-## Model Architecture
+## Model
 
 <p align="center">
   <img src="https://github.com/Gregory-Eales/Rain-Man-AI/blob/master/images/Rain-Man-Pipeline.png" width="500"/>

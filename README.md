@@ -10,12 +10,10 @@ The goal of this project is to build a proficient no-limit texas hold'em agent u
 
 
 ## To Do
- - [ ] get datasets
- - [ ] get poker agents
- - [ ] create rating system
- - [ ] create model
- - [ ] train value network
- - [ ] train policy network
+ - [ ] create poker engine
+ - [ ] create poker GUI
+ - [ ] create poker agents
+ - [ ] create rain man model
 
 ## Model Architecture
 
@@ -46,6 +44,9 @@ The goal of this project is to build a proficient no-limit texas hold'em agent u
 ### Poker Agents
 
 ### Papers
+
+- Introduction to Counterfactual Regret Minimization (http://modelai.gettysburg.edu/2013/cfr/cfr.pdf)
+- DeepStack (https://static1.squarespace.com/static/58a75073e6f2e1c1d5b36630/t/58b7a3dce3df28761dd25e54/1488430045412/DeepStack.pdf)
 
 ### Libraries
 

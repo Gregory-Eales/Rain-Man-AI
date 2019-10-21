@@ -113,8 +113,11 @@ class TexasHoldem(object):
     def check_highcard(self):
         pass
 
-    def check_pair(self):
-        pass
+    def check_pair(self, player):
+        cards = []
+        cards += self.community_cards
+        cards += self.players[player].cards
+        for card
 
     def check_two_pair(self):
         pass
